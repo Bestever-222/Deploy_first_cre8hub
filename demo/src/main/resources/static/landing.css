@@ -13,7 +13,7 @@
     box-sizing: border-box;
   }
 
-  
+
   
   body {
     font-family: 'Inter', sans-serif;
@@ -72,7 +72,6 @@
   h1 {
     font-size: 3.5rem;
     background: rgba(21, 13, 100, 0.315);
-    -webkit-background-clip: text;
     font-weight: 800;
     position: relative;
     transform-style: preserve-3d;
@@ -141,7 +140,6 @@
   .rainbow-text {
     background:  linear-gradient(0deg, #307697, #083658);
     background-size: 200% auto;
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: rainbow 6s linear infinite;
     text-decoration:underline;
